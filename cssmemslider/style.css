@@ -1,0 +1,37 @@
+.wrapper {
+  height: 100vh;
+  background-color: #daa486;
+}
+
+.container {
+  background-color: #e7b87a;
+  height: 100vh;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.slides-wrapper {
+  display: flex;
+  width: 500%;
+  padding: 50px;
+  
+}
+
+.slide {
+  height: 100%;
+  max-width: 100%;
+  padding: 0 350px;
+}
+
+.inner-container {
+  
+  display: flex;
+  align-items: space-between;
+}
+
+.text {
+  padding: 0 50px;
+  color: #000000;
+  font-family: Comic Sans MS, serif;
+  font-size: 2.7em;
+}
