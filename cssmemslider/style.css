@@ -1,0 +1,136 @@
+.slider-wrapper {
+  height: 100vh;
+  background-color: #070136;
+}
+
+.image-container {
+  background-color: #a2badf;
+  height: 100vh;
+  max-width: 65%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides-wrapper {
+  display: flex;
+  width: 500%;
+  padding: 3em;
+  position: relative;
+  transition: left 2s;
+}
+
+.slide {
+  height: 80vh;
+  max-width: 100%;
+  padding: 0 13.1em;
+  margin-left: 0;
+  margin-right: 15.6em;
+}
+
+.text {
+  color: #000000;
+  font-family: Comic Sans MS, serif;
+  font-size: 2.9em;
+}
+
+.controls {
+  position: relative;
+  top: -9em;
+  left: 80%;
+  margin-right: 3em;
+}
+
+.controls-button {
+  display: inline-block;
+  height: 1.6em;
+  width: 1.6em;
+  cursor: pointer;
+  margin-right: 1em;
+  border-radius: 1.6em;
+  border: 0.18em solid #070136;
+  background-color: #ffffff;
+}
+
+.controls-button:hover {
+  background-color: #d3bb52;
+}
+
+.controls-button:active {
+  background-color: #070136;
+}
+
+#mem-1:target ~ .slides-wrapper {
+  left: 0em;
+}
+
+#mem-2:target ~ .slides-wrapper {
+  left: -72em;
+}
+
+#mem-3:target ~ .slides-wrapper {
+  left: -146.7em;
+}
+
+#mem-4:target ~ .slides-wrapper {
+  left: -224.3em;
+}
+
+@media (max-width: 375px) {
+  .image-container {
+    max-width: 75%;
+  }
+
+  .slides-wrapper {
+    padding: 2em 0 0 0;
+  }
+
+  .slide {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 15em;
+  }
+
+  .controls {
+    position: relative;
+    top: -8.5em;
+    left: 30%;
+    margin-right: 3em;
+  }
+
+  .controls-button {
+    display: inline-block;
+    height: 0.6em;
+    width: 0.6em;
+    cursor: pointer;
+    margin-right: 0.3em;
+    border-radius: 1.6em;
+    border: 0.18em solid #070136;
+    background-color: #ffffff;
+  }
+
+  .text {
+    font-size: 1.2em;
+    margin-top: 5.5em;
+  }
+
+  #mem-1:target ~ .slides-wrapper {
+    left: 0em;
+  }
+  
+  #mem-2:target ~ .slides-wrapper {
+    left: -20em;
+  }
+  
+  #mem-3:target ~ .slides-wrapper {
+    left: -40em;
+  }
+  
+  #mem-4:target ~ .slides-wrapper {
+    left: -60.8em;
+  }
+  
+
+}
