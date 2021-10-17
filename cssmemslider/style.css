@@ -8,15 +8,13 @@
   height: 100vh;
   max-width: 65%;
   margin: 0 auto;
- /*text-align: center;*/
   overflow: hidden;
 }
 
 .slides-wrapper {
   display: flex;
-  
   width: 500%;
-  padding: 50px;
+  padding: 3em;
   position: relative;
   transition: left 2s;
 }
@@ -24,13 +22,12 @@
 .slide {
   height: 80vh;
   max-width: 100%;
-  padding: 0 210px;
+  padding: 0 13.1em;
   margin-left: 0;
-  margin-right: 250px;
+  margin-right: 15.6em;
 }
 
 .text {
-  padding: 0 50px;
   color: #000000;
   font-family: Comic Sans MS, serif;
   font-size: 2.9em;
@@ -38,17 +35,17 @@
 
 .controls {
   position: relative;
-  top: -170px;
+  top: -10.6em;
   left: 75%;
-  margin-right: 50px;
+  margin-right: 3em;
 }
 .controls-button {
   display: inline-block;
-  height: 25px;
-  width: 25px;
+  height: 1.6em;
+  width: 1.6em;
   cursor: pointer;
-  border-radius: 25px;
-  border: 3px solid #070136;
+  border-radius: 1.6em;
+  border: 0.18em solid #070136;
   background-color: #ffffff;
 }
 
@@ -61,21 +58,21 @@
 }
 
 #mem-1:target ~ .slides-wrapper {
-  left: 0px;
+  left: 0em;
 }
 
 #mem-2:target ~ .slides-wrapper {
-  left: -1120px;
+  left: -70em;
 }
 
 #mem-3:target ~ .slides-wrapper {
-  left: -2350px;
+  left: -146.8em;
 }
 
 #mem-4:target ~ .slides-wrapper {
-  left: -3590px;
+  left: -224.3em;
 }
 
 #mem-5:target ~ .slides-wrapper {
-  left: -4880px;
+  left: -305em;
 }
