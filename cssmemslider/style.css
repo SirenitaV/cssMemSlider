@@ -46,9 +46,18 @@
   display: inline-block;
   height: 25px;
   width: 25px;
+  cursor: pointer;
   border-radius: 25px;
   border: 3px solid #070136;
   background-color: #ffffff;
+}
+
+.controls-button:hover {
+  background-color: #d3bb52;
+}
+
+.controls-button:active {
+  background-color: #070136;
 }
 
 #mem-1:target ~ .slides-wrapper {
