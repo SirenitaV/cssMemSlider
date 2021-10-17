@@ -35,15 +35,17 @@
 
 .controls {
   position: relative;
-  top: -10.6em;
-  left: 75%;
+  top: -9em;
+  left: 80%;
   margin-right: 3em;
 }
+
 .controls-button {
   display: inline-block;
   height: 1.6em;
   width: 1.6em;
   cursor: pointer;
+  margin-right: 1em;
   border-radius: 1.6em;
   border: 0.18em solid #070136;
   background-color: #ffffff;
@@ -62,11 +64,11 @@
 }
 
 #mem-2:target ~ .slides-wrapper {
-  left: -70em;
+  left: -72em;
 }
 
 #mem-3:target ~ .slides-wrapper {
-  left: -146.8em;
+  left: -146.7em;
 }
 
 #mem-4:target ~ .slides-wrapper {
@@ -75,4 +77,32 @@
 
 #mem-5:target ~ .slides-wrapper {
   left: -305em;
+}
+
+@media (max-width: 375px) {
+  .slides-wrapper {
+    padding: 1.8em;
+  }
+
+  .slide {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: 2px solid orange;
+  }
+
+  .controls {
+    position: relative;
+    top: -33em;
+    left: 30%;
+    margin-right: 3em;
+  }
+
+  .text {
+    padding-top: 1.5em;
+  }
+
 }
